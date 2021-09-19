@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "botw:hero_cap",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.helmet"
+            },
+            "minecraft:icon": {
+                "texture": "botw.hero_cap"
+            },
+            "minecraft:display_name": {
+                "value": "Hero's Cap"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:armor": {
+                "protection": 8
+            },
+            "minecraft:wearable": {
+                "dispensable": true,
+                "slot": "slot.armor.head"
+            }
+        }
+    }
+}

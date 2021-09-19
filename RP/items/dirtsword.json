@@ -1,0 +1,12 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "botw:dirtsword",
+            "category": "Equipment"
+        },
+        "components": {
+            "minecraft:icon": "botw.dirtsword"
+        }
+    }
+}

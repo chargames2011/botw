@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Charlie Guy"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.1.2"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			13,
+			0
+		],
+		"uuid": "545535c9-ed00-4dc0-9a90-97777d7777e0",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "8a742c0c-b6d1-4e21-b2a9-662a76f7b97f",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

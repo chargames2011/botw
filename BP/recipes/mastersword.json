@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "botw:mastersword"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "",
+            "X",
+            "#"
+        ],
+        "key": {
+            "X": {
+                "item": "botw:triforce"
+            },
+            "#": {
+                "item": "minecraft:netherite_sword"
+            }
+        },
+        "result": {
+            "item": "botw:mastersword"
+        }
+    }
+}

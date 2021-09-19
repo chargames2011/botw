@@ -1,0 +1,32 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "botw:hero_tunic",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.chestplate"
+            },
+            "minecraft:icon": {
+                "texture": "botw.hero_tunic"
+            },
+            "minecraft:display_name": {
+                "value": "Hero's Tunic"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "armor_torso"
+            },
+            "minecraft:armor": {
+                "protection": 8
+            },
+            "minecraft:wearable": {
+                "dispensable": true,
+                "slot": "slot.armor.chest"
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "resource_pack_name": "BOTW",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "botw.triforce": {
+            "textures": "textures/items/triforce"
+        },
+        "botw.dirtsword": {
+            "textures": "textures/items/dirtsword"
+        },
+        "botw.mastersword": {
+            "textures": "textures/items/mastersword"
+        },
+        "botw.hero_tunic": {
+            "textures": "textures/items/hero_tunic"
+        },
+        "botw.hero_cap": {
+            "textures": "textures/items/hero_cap.icon"
+        },
+        "botw.hero_leggings": {
+            "textures": "textures/items/hero_leggings"
+        }
+    }
+}

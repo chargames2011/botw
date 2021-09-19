@@ -1,0 +1,16 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "bridge:tower_feature"
+		},
+		"structure_name": "mystructure:tower",
+		"adjustment_radius": 0,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {},
+			"unburied": {}
+		}
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"type": "minecraftBedrock",
+	"name": "botw",
+	"namespace": "botw",
+	"authors": [
+		"Charlie Guy"
+	],
+	"targetVersion": "1.16.0",
+	"description": "",
+	"experimentalGameplay": {
+		"cavesAndCliffs": true,
+		"holidayCreatorFeatures": true,
+		"creationOfCustomBiomes": true,
+		"additionalModdingCapabilities": false,
+		"upcomingCreatorFeatures": false,
+		"enableGameTestFramework": false,
+		"experimentalMolangFeatures": false,
+		"educationEdition": false
+	},
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"compiler": {
+		"plugins": [
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			[
+				"simpleRewrite",
+				{
+					"packName": "botw"
+				}
+			]
+		]
+	}
+}
