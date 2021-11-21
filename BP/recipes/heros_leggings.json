@@ -1,32 +1,20 @@
 {
-    "format_version": "1.16.100",
-    "minecraft:item": {
+    "format_version": "1.17.41",
+    "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "botw:heros_leggings",
-            "category": "equipment"
+            "identifier": "botw:heros_leggings"
         },
-        "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.name.leggings"
-            },
-            "minecraft:icon": {
-                "texture": "botw.hero_leggings"
-            },
-            "minecraft:display_name": {
-                "value": "Hero's Leggings"
-            },
-            "minecraft:max_stack_size": 1,
-            "minecraft:enchantable": {
-                "value": 10,
-                "slot": "armor_legs"
-            },
-            "minecraft:armor": {
-                "protection": 6
-            },
-            "minecraft:wearable": {
-                "dispensable": true,
-                "slot": "slot.armor.legs"
-            }
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            "white_dye",
+            "leather_leggings",
+            "botw:triforce"
+        ],
+        "result": {
+            "item": "botw:heros_leggings",
+            "data": 1
         }
     }
 }
